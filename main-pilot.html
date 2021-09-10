@@ -7,6 +7,17 @@
   <title>Fight in fright trouble　-　パイロット │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <div id="writehere"></div>
+    <script>
+      var count = 0;
+      var countup = setInterval(function(){
+          count++;
+        writehere.innerHTML=count;
+                    if(count >= 9){
+             clearInterval(countup);
+             }
+      } ,1000);
+    </script>
 </head>
 <body>
   <svg width="0" height="0" class="hidden">
