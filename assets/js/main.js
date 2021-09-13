@@ -29,6 +29,16 @@ const app = Vue.createApp({
           q1: 'エンジン',
           // q2: 'かかか',
           // q3: 'ききき',
+        },
+        stage4: {
+          q1: ' ',
+          // q2: 'かかか',
+          // q3: 'ききき',
+        },
+        stage5: {
+          q1: ' ',
+          // q2: 'かかか',
+          // q3: 'ききき',
         }
       },
 
@@ -48,6 +58,16 @@ const app = Vue.createApp({
           false, // 3-1
           // false, // 3-2
           // false, // 3-3
+        ],
+        stage4: [
+          false, // 3-1
+          // false, // 3-2
+          // false, // 3-3
+        ],
+        stage5: [
+          false, // 3-1
+          // false, // 3-2
+          // false, // 3-3
         ]
       },
 
@@ -56,6 +76,8 @@ const app = Vue.createApp({
         stage1: false,
         stage2: false,
         stage3: false,
+        stage4: false,
+        stage5: false,
       },
 
       /* 次のステージを表示するかどうか
@@ -64,6 +86,8 @@ const app = Vue.createApp({
       next: {
         stage1: false,
         stage2: false,
+        stage3: false,
+        stage4: false,
       },
     }
   },
