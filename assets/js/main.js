@@ -105,6 +105,9 @@ const app = Vue.createApp({
       if ( this.clear[stage] === true && final === 'final' ) {
         window.location.href = 'final.html';
       }
+      if ( this.clear[stage] === true && final === 'final-pilot' ) {
+        window.location.href = 'final-pilot.html';
+      }
     },
     /* クリア画面「次のステージへ」ボタンをクリックした時の動作を設定します
     *  clearをfalseにしてクリア画面を非表示にします。
